@@ -4,17 +4,18 @@
 wordpress_sites:
   wptest.sk-aws.nl:
     site_hosts:
-    - canonical: wptest.sk-aws.test
-      redirects: []
+    - canonical: wptest.sk-aws.nl
+      redirects:
+       - www.wptest.sk-aws.nl
     local_path: ../site
-    repo: git@github.com:storekeeper-company/wordpress-trellis.git
+    repo: git@github.com:rommellll/wp-trellis.git
     repo_subtree_path: site
     branch: master
     admin_email: rommel@storekeeper.nl
     multisite:
       enabled: false
     ssl:
-      enabled: false
-      provider: self-signed
+      enabled: true
+      provider: letsencrypt
     cache:
       enabled: true
