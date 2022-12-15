@@ -2,11 +2,11 @@
 # Documentation: https://docs.roots.io/trellis/master/wordpress-sites/
 
 wordpress_sites:
-  wptest.sk-aws.nl:
+  trelliswp.sk-aws.nl:
     site_hosts:
-    - canonical: wptest.sk-aws.nl
+    - canonical: trelliswp.sk-aws.nl
       redirects:
-       - www.wptest.sk-aws.nl
+       - www.trelliswp.sk-aws.nl
     local_path: ../site
     repo: git@github.com:rommellll/wp-trellis.git
     repo_subtree_path: site
