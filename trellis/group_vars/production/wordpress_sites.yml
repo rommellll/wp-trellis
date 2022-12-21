@@ -13,7 +13,24 @@ wordpress_sites:
     branch: master
     admin_email: rommel@storekeeper.nl
     multisite:
-      enabled: false
+      enabled: true
+    ssl:
+      enabled: true
+      provider: letsencrypt
+    cache:
+      enabled: true
+  skwp.sk-aws.nl:
+    site_hosts:
+    - canonical: skwp.sk-aws.nl
+      redirects:
+       - www.skwp.sk-aws.nl
+    local_path: ../skwp.sk-aws.nl
+    repo: git@github.com:rommellll/wp-trellis.git
+    repo_subtree_path: skwp.sk-aws.nl
+    branch: master
+    admin_email: rommel@storekeeper.nl
+    multisite:
+      enabled: true
     ssl:
       enabled: true
       provider: letsencrypt
