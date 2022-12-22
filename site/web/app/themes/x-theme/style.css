@@ -1,0 +1,19 @@
+/**
+ * Theme Name: X Theme
+ * Description: Storekeeper Theme
+ * Author: By StoreKeeper
+ * Template: blocksy
+ * Text Domain: StoreKeeper
+ */
+
+
+
+[data-dropdown*=simple]>ul>[class*=ct-mega-menu] .entry-content, [data-dropdown*=simple]>ul>[class*=ct-mega-menu] .sub-menu>li>a {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+nav>ul>[class*=ct-mega-menu]>.sub-menu>li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
