@@ -1,0 +1,65 @@
+/* Single page Cross Sell Slider */
+
+.cross-sell-slides .woocommerce-loop-product__title {
+    font-size: 14px;
+	padding-top: 15px;
+}
+
+.woocommerce .cross-sell-slides .product .price {
+    padding-left: 0;
+}
+
+.tinvwl_add_to_wishlist-text {
+    font-size: 12px;
+}
+
+.cross-sell-slides {
+	padding: 0;
+}
+.cross-sell-slides .owl-prev {
+    width: 15px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block !important;
+    border:0px solid black;
+}
+
+.cross-sell-slides .owl-prev i {
+    margin-left: -15px;
+}
+
+.cross-sell-slides .owl-next {
+    width: 15px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block !important;
+    border:0px solid black;
+}
+.cross-sell-slides .owl-prev i, .cross-sell-slides .owl-next i { color: #000;}
+
+.cross-sell-slides.owl-theme .owl-nav [class*=owl-]:hover {
+	background: transparent;
+}
+
+.cross-sell-slides .woocommerce-loop-product__title, .cross-sell-slides .price, .cross-sell-slides .tinv-wraper,
+.cross-sell-slides .ct-woo-card-actions{
+    display: none;
+	opacity: 0 !important;
+}
+
+.cross-sell-slides {
+    padding: 0 !important;
+}
+
+.cross-sell-slides .et_shop_image:hover .et_overlay:before {
+    display: none;
+}
+
+.cross-sell-slides .et_shop_image:hover .et_overlay {
+    background-color: transparent;
+    border: 1px solid #000;
+}

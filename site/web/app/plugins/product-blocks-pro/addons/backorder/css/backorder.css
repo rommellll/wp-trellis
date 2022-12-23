@@ -1,0 +1,54 @@
+.w-60{
+    width: 60% !important;
+}
+.wopb-backorder-field-group {
+    padding: 15px;
+    background: #f5f5f5;
+    border: 1px solid #d8d8d8;
+}
+
+.wopb-backorder-field-group .wopb-backorder-title{
+    border-bottom: 1px solid #bbb;
+    display: flex;
+    border-bottom: 1px solid #bbb;
+    margin: 0;
+    padding: 0 0 8px;
+    font-size: 18px;
+}
+
+.wopb-backorder-field-group .form-field label{
+    padding-bottom: 2px;
+    display: inline-block;
+}
+
+.wopb-singlepage-backorder-message .wopb-backorder-message, .wopb-singlepage-backorder-message .wopb-backorder-duration, .wopb-cart-backorder-message{
+    color : #398e29;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.wopb-singlepage-backorder-remaining-item .wopb-backorder-remaining-count{
+    font-weight: bold;
+    color: #333;
+}
+
+.wopb-cart-backorder-badge{
+    background: #007cba;
+    color: #fff;
+    margin-left: 3px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.wopb-cart-backorder-message{
+    display: none;
+}
+
+.woocommerce-cart-form__contents .wopb-cart-backorder-message{
+    display: block;
+    font-size: 14px;
+}
+
+.wc-item-meta-label .wopb-cart-backorder-badge, .display_meta .wopb-cart-backorder-badge{
+    margin-right: 5px;
+}

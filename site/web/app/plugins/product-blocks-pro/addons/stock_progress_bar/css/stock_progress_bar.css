@@ -1,0 +1,30 @@
+.wopb-stock-progress-bar-section{
+    margin-bottom: 10px;
+}
+
+.wopb-stock-progress-bar {
+    width: 100%;
+    background-color: #e2e2e2;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.wopb-stock-progress-available-title{
+    float: right;
+}
+.wopb-stock-progress-sold-title,
+.wopb-stock-progress-available-title {
+    color: #656565;
+}
+.wopb-stock-progress-count {
+    color: #000;
+    font-weight: 700;
+}
+.wopb-stock-progress {
+    width: 0;
+    height: 5px;
+    background-color: #25b064;
+    border-radius: 5px;
+}
+.stock.in-stock + .wopb-stock-progress-bar-section {
+    margin-top: 7px;
+}

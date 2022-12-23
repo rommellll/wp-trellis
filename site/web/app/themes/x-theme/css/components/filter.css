@@ -1,0 +1,60 @@
+#filter-trigger-mobile {
+    display: none;
+}
+
+.home .wopb-builder-container.product {
+    max-width: 100% !important;
+}
+
+.home .wp-block-product-blocks-image .wopb-image-block, .home .wp-block-product-blocks-image .wopb-image-block img, .home .wp-block-product-blocks-image .wopb-image-block a {
+    width: 100%;
+}
+
+@media (max-width: 781px) {
+    .main-container .ct-container-fluid {
+        width: 98vw;
+    }
+	.admin-bar .wp-block-columns #filter-trigger-desktop .wopb-product-wrapper {
+    	padding-top: 61px;
+    }
+    #filter-trigger-mobile {
+    	display: block;
+	}
+	.wp-block-columns #filter-trigger-desktop {
+        position: fixed;
+        top: 0;
+        z-index: 999;
+        background-color: #fff;
+        width: 100%;
+        overflow: scroll;
+        height: 100%;
+        opacity: 0;
+    	visibility: hidden;
+        transition-duration: 0.3s;
+	}
+    
+    .wp-block-columns #filter-trigger-desktop .wopb-product-wrapper {
+    	padding: 15px;
+	}
+    
+    .wp-block-columns #filter-trigger-desktop.active {
+        opacity: 1;
+        visibility: visible;
+	}
+    
+    .wp-block-columns #filter-trigger-desktop .wopb-filter-title-section .dashicons-filter:before {
+        content: "\f335";
+    	font-size: 24px;
+    }
+    
+    #filter-trigger-mobile .wopb-filter-title-section {
+        border: 1px solid #000;
+        padding: 8px;
+        width: 98%;
+    	margin: 0 auto;
+	}
+    
+    #filter-trigger-mobile .dashicons-filter {
+    	line-height: 25px;
+    }
+}
